@@ -1,4 +1,4 @@
-#N canvas 108 221 751 525 12;
+#N canvas -23 191 751 525 12;
 #X obj 318 296 vline~;
 #X obj 318 320 snapshot~;
 #X floatatom 318 341 5 0 0 0 - - - 0;
@@ -9,11 +9,11 @@
 #X floatatom 355 79 5 0 0 0 - - - 0;
 #X floatatom 392 79 5 0 0 0 - - - 0;
 #X obj 183 316 outlet~;
-#X obj 112 149 hsl 128 15 0 1000 0 0 empty empty A -2 -8 0 10 #fcfcfc
+#X obj 112 157 hsl 128 15 0 1000 0 0 empty empty A -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 112 181 hsl 128 15 50 1000 0 0 empty empty D -2 -8 0 10 #fcfcfc
+#X obj 112 189 hsl 128 15 50 1000 0 0 empty empty D -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 112 245 hsl 128 15 50 2000 0 0 empty empty R -2 -8 0 10 #fcfcfc
+#X obj 112 253 hsl 128 15 50 2000 0 0 empty empty R -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 107 4 loadbang;
 #X obj 18 5 inlet bang;
@@ -21,7 +21,7 @@
 #X obj 18 361 s \$0-ADR;
 #X obj 475 4 r \$0-ADR;
 #X obj 107 62 unpack f f f f;
-#X obj 112 213 hsl 128 15 0 1600 0 0 empty empty S -2 -8 0 10 #fcfcfc
+#X obj 112 221 hsl 128 15 0 1600 0 0 empty empty S -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 18 332 pack f f f f;
 #X msg 475 28 \$1 \$2 \$3 \$4;
@@ -33,11 +33,11 @@
 #X obj 543 159 expr $f1+$f2;
 #X obj 318 208 pack f f f f f f f;
 #X msg 318 239 1 \$2 \, 0.5 \$3 \$4 \, 0.5 0 \$5 \, 0 \$6 \$7;
-#X obj 252 136 delay;
-#X obj 112 121 hsl 128 15 0 2000 0 0 empty empty D -2 -8 0 10 #fcfcfc
+#X obj 252 144 delay;
+#X obj 112 129 hsl 128 15 0 2000 0 0 empty empty D -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 18 29 s \$0-bang;
-#X obj 252 111 r \$0-bang;
+#X obj 252 119 r \$0-bang;
 #X connect 0 0 1 0;
 #X connect 0 0 8 0;
 #X connect 1 0 2 0;
@@ -83,4 +83,4 @@
 #X connect 29 0 27 0;
 #X connect 30 0 29 1;
 #X connect 32 0 29 0;
-#X coords 0 -1 1 1 149 146 1 100 100;
+#X coords 0 -1 1 1 151 178 1 100 100;
