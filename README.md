@@ -4,9 +4,9 @@
 
 Se encuentran los diferentes objetos
 
-- LFO
-- ADSR
-- DADSR
+- LFO (Low Frecuenci Ocilator)
+- ADSR (Atack, Decay, Sustain, Release)
+- DADSR (Delay, Atack, Decay, Sustain, Release)
 - Wave
   - Triangular
   - Cuadrada
