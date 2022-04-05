@@ -1,0 +1,12 @@
+#N canvas 367 273 450 300 12;
+#X obj 94 130 mtof;
+#X obj 167 38 notein;
+#X obj 188 130 / 127;
+#X obj 188 154 outlet volume;
+#X obj 94 154 outlet note;
+#X floatatom 253 75 5 0 0 0 - - - 0;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 1 0 5 0;
+#X connect 1 1 2 0;
+#X connect 2 0 3 0;
