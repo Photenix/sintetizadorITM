@@ -1,5 +1,5 @@
-#N canvas 452 120 450 300 12;
-#X obj 105 25 keyname;
+#N canvas 733 595 450 300 12;
+#X obj 90 25 keyname, f 9;
 #X symbolatom 150 61 10 0 0 0 - - - 0;
 #X obj 142 155 mtof;
 #N canvas 647 304 605 585 first-octave 0;
@@ -70,7 +70,7 @@
 #X connect 20 4 5 0;
 #X connect 20 5 18 0;
 #X restore 21 136 pd first-octave;
-#N canvas 322 46 605 581 second-octave 1;
+#N canvas 482 153 605 581 second-octave 0;
 #X floatatom 12 182 5 0 0 0 - - - 0;
 #X floatatom 49 199 5 0 0 0 - - - 0;
 #X floatatom 86 218 5 0 0 0 - - - 0;
@@ -140,10 +140,15 @@
 #X restore 242 136 pd second-octave;
 #X obj 142 211 outlet note;
 #X msg 150 117 \$1;
+#X floatatom 90 59 5 0 0 0 - - \$0-swich 0;
+#X obj 283 211 outlet swich;
+#X obj 283 182 r \$0-swich;
+#X connect 0 0 7 0;
 #X connect 0 1 1 0;
 #X connect 1 0 6 0;
 #X connect 2 0 5 0;
 #X connect 3 0 2 0;
 #X connect 4 0 2 0;
-#X connect 6 0 4 0;
 #X connect 6 0 3 0;
+#X connect 6 0 4 0;
+#X connect 9 0 8 0;

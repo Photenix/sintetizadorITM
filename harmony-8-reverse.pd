@@ -1,23 +1,23 @@
 #N canvas 310 142 958 550 12;
 #X obj 25 292 osc~;
 #X obj 25 327 *~;
-#X obj 63 295 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 106 124 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 100 293 osc~;
 #X obj 100 328 *~;
-#X obj 106 123 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 129 124 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 137 293 osc~;
 #X obj 137 328 *~;
-#X obj 130 123 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 153 124 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 220 293 osc~;
 #X obj 220 328 *~;
-#X obj 154 123 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 177 124 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 300 294 osc~;
 #X obj 300 329 *~;
-#X obj 177 123 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 200 124 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X floatatom 707 325 5 0 0 0 - - - 0;
 #X obj 600 176 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
@@ -42,13 +42,13 @@
 #X obj 219 467 outlet~ h4;
 #X obj 300 492 outlet~ h5;
 #X obj 689 494 outlet volume;
-#X obj 199 123 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 222 124 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 223 123 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 246 124 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 247 123 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 270 124 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 270 123 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 293 124 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 348 294 osc~;
 #X obj 348 329 *~;
@@ -144,4 +144,4 @@
 #X connect 55 0 57 7;
 #X connect 56 0 57 6;
 #X connect 57 0 15 0;
-#X coords 0 -1 1 1 190 85 1 100 100;
+#X coords 0 -1 1 1 212 80 1 100 100;
