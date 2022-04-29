@@ -1,4 +1,4 @@
-#N canvas 400 374 802 525 12;
+#N canvas 267 374 802 525 12;
 #X obj 318 353 vline~;
 #X obj 318 442 snapshot~;
 #X floatatom 318 463 5 0 0 0 - - - 0;
